@@ -41,17 +41,12 @@ The main NPC (Lottie) does not follow a fixed script. She features:
 
 ## 📸 Gallery & Demos
 
-🎬 **Main Demo (35s):**  
-<video width="100%" controls>
-  <source src="assets/videos/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> 
+### 🎬 Main Demo (35s)
+[▶️ Click here to watch the main demo](assets/videos/demo.mp4)  
 *Login, AI autonomous chat, and Spotify integration.*
 
-<video width="100%" controls>
-  <source src="assets/videos/bonus.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+### 🎬 Bonus Demo (16s)
+[▶️ Click here to watch the bonus demo](assets/videos/bonus.mp4)  
 *Autonomous social content generation via DM command.*
 
 ### Screenshots
