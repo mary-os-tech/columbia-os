@@ -101,6 +101,9 @@ The project requires a MySQL database. Follow these steps to set it up:
 Before running the project, you need to set up your own API keys. Follow the steps below:
 
 ### 1. OpenRouter AI (for Lottie's personality)
+
+The system is currently configured to use **OpenRouter** as the AI provider.
+
 1. Go to [OpenRouter.ai](https://openrouter.ai) and create a free account.
 2. In your dashboard, generate a new API Key.
 3. Copy the key and paste it into your `.env` file:
@@ -108,6 +111,12 @@ Before running the project, you need to set up your own API keys. Follow the ste
    ```env
    OPENROUTER_API_KEY=your_key_here
 
+🔧 Changing the model (optional):
+By default, the system uses the deepseek/deepseek-chat model (which is cost-efficient and great for character simulation).
+If you want to change it, you can edit the OPENROUTER_MODEL constant inside includes/ai_config.php.
+
+🆓 Using free or alternative providers:
+For future use, the system also has commented-out configurations for Groq (free) and DeepSeek (free) inside includes/ai_config.php. You can activate them by uncommenting the respective sections and adding the API key to your .env.
 
 ### 2. Spotify API (for music integration)
 1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) and log in.
