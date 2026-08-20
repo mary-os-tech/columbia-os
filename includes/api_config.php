@@ -3,8 +3,11 @@
 // AI API CONFIGURATION
 // =============================================
 
-// ========== OPENROUTER (Primary - Using $10 credit) ==========
-define('OPENROUTER_API_KEY', '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');  // YOUR OPENROUTER KEY HERE
+// Puxa a chave do arquivo .env (seguro na raiz do projeto)
+$api_key = getenv('OPENROUTER_API_KEY');
+
+// ========== OPENROUTER ==========
+define('OPENROUTER_API_KEY', $api_key);
 define('OPENROUTER_API_URL', 'https://openrouter.ai/api/v1/chat/completions');
 define('OPENROUTER_MODEL', 'deepseek/deepseek-chat');  // Best for character
 define('OPENROUTER_MAX_RETRIES', 1);
