@@ -245,4 +245,4 @@ OPENWEATHER_API_KEY=your_key_here
 ## 📫 Contact
 
 - **GitHub:** [@mary-os-tech](https://github.com/mary-os-tech)
-- **LinkedIn:** [seu link aqui]
+- **LinkedIn:** [www.linkedin.com/in/mariana-claumann-bb3b89429]
