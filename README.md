@@ -118,8 +118,8 @@ Or download the video here: [Download the .mp4](assets/videos/bonus.mp4)
 
 **Spotify Reaction**
 ![Lottie reacting to your music in real-time via API](assets/images/reaction_spotify.png)  
-
 *Lottie reacting to your music in real-time via API*
+
 ---
 
 ## 📌 Active Roadmap
